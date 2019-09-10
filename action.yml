@@ -1,0 +1,16 @@
+name: 'Repository Dispatch'
+author: 'SpaceEEC'
+description: 'Sends a repository dispatch'
+inputs:
+  target_repository:
+    description: 'The repository to send the repository dispatch to.'
+    required: true
+  event_type:
+    description: 'The type of the repository dispatch'
+    required: true
+  pat:
+    description: 'The personal access token to use'
+    required: true
+runs:
+  using: 'node12'
+  main: 'main.js'

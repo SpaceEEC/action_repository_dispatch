@@ -1,0 +1,16 @@
+{
+  "name": "action_repository_dispatch",
+  "version": "1.0.0",
+  "description": "GitHub action sending a repository dispatch",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "SpaceEEC",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.1.0",
+    "node-fetch": "^2.6.0"
+  }
+}
