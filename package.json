@@ -11,6 +11,6 @@
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.1.0",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.1"
   }
 }
